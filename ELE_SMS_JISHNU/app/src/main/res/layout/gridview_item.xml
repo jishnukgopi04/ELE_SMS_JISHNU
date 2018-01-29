@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_marginStart="2dp"
+    android:layout_marginTop="2dp"
+    android:layout_marginBottom="2dp"
+    android:layout_marginEnd="2dp"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginStart="5dp"
+        android:id="@+id/txt_serial_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_marginStart="5dp"
+        android:id="@+id/txt_sender_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_marginStart="5dp"
+        android:id="@+id/txt_credit_card_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cad number"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_marginStart="5dp"
+        android:id="@+id/txt_amount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Amount"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_marginStart="5dp"
+        android:id="@+id/txt_transaction_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Transaction date"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_marginStart="5dp"
+        android:id="@+id/txt_receved_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="recieved time"
+        android:textSize="12sp" />
+
+</LinearLayout>
